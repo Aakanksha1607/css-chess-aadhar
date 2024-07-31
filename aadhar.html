@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adhar</title>
+    <style>
+       .heading{
+        border:2px solid;
+        padding:10px;
+        background-color: bisque;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        cursor: pointer;
+       }
+       .block1  {
+        border: 0px solid;
+        /* display: block; */
+        width:300px;
+         display: none; 
+       }
+       .block1 > a{
+        display: block;
+        text-decoration: none;
+        margin: 10px;
+        /* color:rgb(120, 24, 255); */
+        background-color: rgb(190, 226, 193);
+        padding: 10px;
+        font-size: 18px;
+        
+       }
+       .heading:hover +.block1{
+        display:block;
+        
+       }
+       .heading:focus-within +.block1 {
+         display:block;
+        } 
+        .heading:link{
+          color:aqua
+        }
+       
+       a:link{
+        color:rgb(120, 24, 255);
+       }
+       a:visited{
+        color:rgb(4, 72, 4);
+       }
+       a:hover{
+        color:red
+       }
+       a:active{
+        color:rgb(163, 47, 67);
+       }
+       /* .container{
+        display: flex;
+        flex-direction: row;
+
+       }  */
+        /* .heading:hover + .block2{
+        display:block;
+       }
+       .heading:focus-within + .block2{
+         display:block;
+       }  */
+    </style>
+</head>
+<body>
+    <button class="heading">MY AADHAAR</button>
+   <!-- <div class="container"> -->
+     <div class="block1">
+         <a href="https://uidai.gov.in/en/my-aadhaar/update-aadhaar.html"><b style="color:black">Update your Aadhaar</b> </a>
+        <a href="https://myaadhaar.uidai.gov.in/du/en">Document update</a>
+        <a href="https://myaadhaar.uidai.gov.in/CheckAadhaarStatus/en">Check Aadhaar Update Status</a>
+        <a href="https://myaadhaar.uidai.gov.in/">Update Demographics Data & Check status</a>
+        <a href="https://uidai.gov.in/images/commdoc/List_of_Supporting_Document_for_Aadhaar_Enrolment_and_Update.pdf">List of supporting Documents for aadhaar</a>
+        <a href="https://uidai.gov.in/en/my-aadhaar/downloads/enrolment-and-update-forms.html">Enrolment & Update forms</a>
+        <a href="https://myaadhaar.uidai.gov.in/">Aadhaar Update History</a>
+        <a href="https://appointments.uidai.gov.in/easearch.aspx">Update Aadhaar at Enrolment</a>
+     </div>
+     <!-- <div class="block2">
+        <a href="https://uidai.gov.in/en/my-aadhaar/get-aadhaar.html"> <b style="color:black">Get Aadhaar</b></a>
+        <a href="https://appointments.uidai.gov.in/bookappointment.aspx">Book an Appointment</a>
+        <a href="https://myaadhaar.uidai.gov.in/check-aadhaar">Check Aadhaar status</a>
+        <a href="https://myaadhaar.uidai.gov.in/genricDownloadAadhaar/en">Download Aadhaar</a>
+        <a href="https://myaadhaar.uidai.gov.in/genricPVC/en">Order Aadhaar PVC card</a>
+        <a href="https://bhuvan.nrsc.gov.in/aadhaar/">Locate an enrolment centre</a>
+        <a href="https://uidai.gov.in/en/my-aadhaar/downloads/enrolment-and-update-forms.html">Enrolment & update forms</a>
+        <a href="https://uidai.gov.in/images/commdoc/List_of_Supporting_Document_for_Aadhaar_Enrolment_and_Update.pdf">Listing of supporting Documents for Aadhaar Enrolment</a>
+     </div> -->
+
+
+   
+</body>
+</html>
